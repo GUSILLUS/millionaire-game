@@ -29,6 +29,26 @@ body, main {
   background: linear-gradient(to bottom right, var(--color-white-100) 50%, var(--color-orange-5) 50%);
 }
 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 4px;
+  border-radius: 100px;
+  background-color: #F2F4F7;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: #F2F4F7;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #D0D5DD;
+  height: 20px;
+}
+
 .wrapper {
   padding-inline: 16px;
 }
@@ -42,11 +62,12 @@ body, main {
   position: fixed;
   top: 50%;
   left: 50%;
-  padding-bottom: 24px;
   transform: translate(-50%, -50%);
   background-color: var(--color-black-5);
   border: 1px solid var(--color-black-40);
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
 
   @media (orientation: portrait) {
     flex-direction: column;
@@ -84,6 +105,7 @@ body, main {
 
 .game__main {
   padding: 130px 80px;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -91,7 +113,7 @@ body, main {
   flex-grow: 1;
 
   @media (orientation: portrait) {
-    padding: 0;
+    padding: 0 0 24px;
     gap: 48px;
     justify-content: center;
   }
@@ -117,6 +139,9 @@ body, main {
   justify-content: start;
   row-gap: 32px;
   margin-top: auto;
+  max-height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
 
 
   @media (orientation: portrait) {
@@ -152,8 +177,10 @@ body, main {
 
 .game__ladder-list {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   gap: 8px;
-  max-height: 568px;
+  padding: 16px;
+  max-height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }

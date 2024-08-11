@@ -2,8 +2,8 @@
   {
     "question": "What is the capital of France?",
     "answers": [
-      { "id": "A", "text": "Paris", "isCorrect": true },
-      { "id": "B", "text": "Rome", "isCorrect": false },
+      { "id": "A", "text": "Rome", "isCorrect": false },
+      { "id": "B", "text": "Paris", "isCorrect": true },
       { "id": "C", "text": "Berlin", "isCorrect": false },
       { "id": "D", "text": "Madrid", "isCorrect": false }
     ],
@@ -22,8 +22,8 @@
   {
     "question": "Which planet is known as the Red Planet?",
     "answers": [
-      { "id": "A", "text": "Mars", "isCorrect": true },
-      { "id": "B", "text": "Jupiter", "isCorrect": false },
+      { "id": "A", "text": "Jupiter", "isCorrect": false },
+      { "id": "B", "text": "Mars", "isCorrect": true },
       { "id": "C", "text": "Venus", "isCorrect": false },
       { "id": "D", "text": "Saturn", "isCorrect": false }
     ],
@@ -32,9 +32,9 @@
   {
     "question": "What is the largest ocean on Earth?",
     "answers": [
-      { "id": "A", "text": "Pacific Ocean", "isCorrect": true },
-      { "id": "B", "text": "Atlantic Ocean", "isCorrect": false },
-      { "id": "C", "text": "Indian Ocean", "isCorrect": false },
+      { "id": "A", "text": "Atlantic Ocean", "isCorrect": false },
+      { "id": "B", "text": "Indian Ocean", "isCorrect": false },
+      { "id": "C", "text": "Pacific Ocean", "isCorrect": true },
       { "id": "D", "text": "Southern Ocean", "isCorrect": false }
     ],
     "reward": "4,000"
@@ -42,40 +42,40 @@
   {
     "question": "Which element has the chemical symbol 'O'?",
     "answers": [
-      { "id": "A", "text": "Oxygen", "isCorrect": true },
-      { "id": "B", "text": "Osmium", "isCorrect": false },
-      { "id": "C", "text": "Oxide", "isCorrect": false },
-      { "id": "D", "text": "Ornithine", "isCorrect": false }
+      { "id": "A", "text": "Oxide", "isCorrect": false },
+      { "id": "B", "text": "Ornithine", "isCorrect": false },
+      { "id": "C", "text": "Osmium", "isCorrect": false },
+      { "id": "D", "text": "Oxygen", "isCorrect": true }
     ],
     "reward": "8,000"
   },
   {
     "question": "In what year did the Titanic sink?",
     "answers": [
-      { "id": "A", "text": "1912", "isCorrect": true },
-      { "id": "B", "text": "1905", "isCorrect": false },
-      { "id": "C", "text": "1923", "isCorrect": false },
-      { "id": "D", "text": "1898", "isCorrect": false }
+      { "id": "A", "text": "1923", "isCorrect": false },
+      { "id": "B", "text": "1898", "isCorrect": false },
+      { "id": "C", "text": "1912", "isCorrect": true },
+      { "id": "D", "text": "1905", "isCorrect": false }
     ],
     "reward": "16,000"
   },
   {
     "question": "What is the largest mammal?",
     "answers": [
-      { "id": "A", "text": "Blue Whale", "isCorrect": true },
-      { "id": "B", "text": "Elephant", "isCorrect": false },
-      { "id": "C", "text": "Giraffe", "isCorrect": false },
-      { "id": "D", "text": "Hippopotamus", "isCorrect": false }
+      { "id": "A", "text": "Giraffe", "isCorrect": false },
+      { "id": "B", "text": "Hippopotamus", "isCorrect": false },
+      { "id": "C", "text": "Blue Whale", "isCorrect": true },
+      { "id": "D", "text": "Elephant", "isCorrect": false }
     ],
     "reward": "32,000"
   },
   {
     "question": "Which artist painted the Mona Lisa?",
     "answers": [
-      { "id": "A", "text": "Leonardo da Vinci", "isCorrect": true },
+      { "id": "A", "text": "Claude Monet", "isCorrect": false },
       { "id": "B", "text": "Vincent van Gogh", "isCorrect": false },
       { "id": "C", "text": "Pablo Picasso", "isCorrect": false },
-      { "id": "D", "text": "Claude Monet", "isCorrect": false }
+      { "id": "D", "text": "Leonardo da Vinci", "isCorrect": true }
     ],
     "reward": "64,000"
   },
@@ -92,9 +92,9 @@
   {
     "question": "Who was the first President of the United States?",
     "answers": [
-      { "id": "A", "text": "George Washington", "isCorrect": true },
+      { "id": "A", "text": "Abraham Lincoln", "isCorrect": false },
       { "id": "B", "text": "Thomas Jefferson", "isCorrect": false },
-      { "id": "C", "text": "Abraham Lincoln", "isCorrect": false },
+      { "id": "C", "text": "George Washington", "isCorrect": true },
       { "id": "D", "text": "John Adams", "isCorrect": false }
     ],
     "reward": "250,000"
@@ -102,20 +102,20 @@
   {
     "question": "Which country is known as the Land of the Rising Sun?",
     "answers": [
-      { "id": "A", "text": "Japan", "isCorrect": true },
-      { "id": "B", "text": "China", "isCorrect": false },
-      { "id": "C", "text": "India", "isCorrect": false },
-      { "id": "D", "text": "South Korea", "isCorrect": false }
+      { "id": "A", "text": "China", "isCorrect": false },
+      { "id": "B", "text": "India", "isCorrect": false },
+      { "id": "C", "text": "South Korea", "isCorrect": false },
+      { "id": "D", "text": "Japan", "isCorrect": true }
     ],
     "reward": "500,000"
   },
   {
     "question": "What is the main ingredient in guacamole?",
     "answers": [
-      { "id": "A", "text": "Avocado", "isCorrect": true },
-      { "id": "B", "text": "Tomato", "isCorrect": false },
-      { "id": "C", "text": "Lime", "isCorrect": false },
-      { "id": "D", "text": "Onion", "isCorrect": false }
+      { "id": "A", "text": "Onion", "isCorrect": false },
+      { "id": "B", "text": "Avocado", "isCorrect": true },
+      { "id": "C", "text": "Tomato", "isCorrect": false },
+      { "id": "D", "text": "Lime", "isCorrect": false }
     ],
     "reward": "1,000,000"
   }
