@@ -1,0 +1,50 @@
+.step {
+  width: 20rem;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+  color: var(--color-black-100);
+  list-style: none;
+
+  & .step__reward {
+    width: 20rem;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    overflow: visible;
+    align-items: center;
+    background: transparent;
+  }
+
+  & .step__background {
+    z-index: -1;
+    position: absolute;
+    min-height: 32px;
+    width: 20rem;
+    top: 0;
+    bottom: 0;
+    stroke: var(--color-black-40);
+    fill: var(--color-white-100);
+    transition-duration: 300;
+    transition-property: stroke, fill;
+  }
+}
+ 
+.step--current {
+  color: var(--color-orange-100);
+
+  & .step__background {
+    stroke: var(--color-orange-100);
+  }
+}
+
+.step--prev {
+  color: var(--color-black-40);
+
+  & .step__background {
+    stroke: var(--color-black-40);
+  }
+}
+

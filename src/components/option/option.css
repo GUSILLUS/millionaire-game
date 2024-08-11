@@ -1,0 +1,90 @@
+.option {
+  width: 26rem;
+  cursor: pointer;
+  overflow: visible;
+  position: relative;
+  min-height: 76px;
+  display: flex;
+
+  @media (orientation: portrait) {
+    max-width: 100dvw;
+    min-height: 56px;
+  }
+
+  & .option__background {
+    z-index: -1;
+    position: absolute;
+    min-height: 76px;
+    width: 26rem;
+    top: 0;
+    bottom: 0;
+    stroke: var(--color-black-40);
+    fill: var(--color-white-100);
+    transition-duration: 300;
+    transition-property: stroke, fill;
+
+    @media (orientation: portrait) {
+      max-width: 100dvw;
+      min-height: 56px;
+    }
+  }
+
+  & .option__answer {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: auto;
+    padding: 20px 41px;
+    justify-content: start;
+
+    @media (orientation: portrait) {
+      max-width: 320px;
+      min-height: 56px;
+      max-height: 56px;
+    }
+  }
+  
+  & .option__letter {
+    margin-right: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-orange-100);
+
+    @media (orientation: portrait) {
+      font-size: 16px;
+    }
+  }
+  
+  & .option__text {
+    font-size: 20px;
+
+    @media (orientation: portrait) {
+      font-size: 14px;
+    }
+  }
+
+  &:hover:not(.option--correct, .option--wrong) .option__background {
+    stroke: var(--color-orange-100);
+  }
+
+  &:active:not(.option--correct, .option--wrong) .option__background {
+    stroke: var(--color-orange-100);
+    fill: var(--color-orange-5)
+  }
+
+}
+
+.option--wrong .option__background {
+  stroke: var(--color-red-100);
+  fill: var(--color-red-5);
+}
+
+.option--correct .option__background {
+  stroke: var(--color-green-100);
+  fill: var(--color-green-5)
+}
+
+
+
+
+
