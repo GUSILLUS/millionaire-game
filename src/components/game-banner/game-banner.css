@@ -6,6 +6,9 @@
   align-items: center;
   padding-inline: 80px;
   background: linear-gradient(to bottom right, var(--color-white-100) 50%, var(--color-orange-5) 50%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
 
   @media (orientation: portrait) {
     position: relative;
