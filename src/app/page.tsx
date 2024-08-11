@@ -6,7 +6,7 @@ import cn from 'classnames'
 import { Option, GameBanner, Step } from '@/components'
 import { useGameConfig } from '@/shared/hooks/useGameConfig'
 
-export const Home = () => {
+const Home = () => {
   const { gameStatus, currentQuestion, rewardsList, onStart, onAnswerCheck } =
     useGameConfig()
 
