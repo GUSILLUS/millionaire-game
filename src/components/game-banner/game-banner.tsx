@@ -1,9 +1,9 @@
 import { FC } from 'react'
 import Image from 'next/image'
-import { Button } from '../button'
 import './game-banner.css'
 import { imageProperties } from '@/shared/constants/general'
 import { GameStatus } from '@/shared/types'
+import { Button } from '../button'
 
 type Props = {
   onStart: () => void

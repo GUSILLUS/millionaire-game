@@ -11,7 +11,8 @@
     "airbnb",
     "airbnb-typescript",
     "prettier",
-    "eslint:recommended"
+    "eslint:recommended",
+    "next/core-web-vitals"
   ],
   "parserOptions": {
     "ecmaVersion": 12,
