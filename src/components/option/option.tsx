@@ -16,8 +16,8 @@ export const Option: FC<Props> = ({ answer, onCheckAnswer }) => {
 
   const handleClick = () => {
     if (isAnswerCorrect === null) {
-      setTimeout(() => setIsAnswerCorrect(isCorrect), 300)
-      setTimeout(() => onCheckAnswer(isCorrect), 600)
+      setIsAnswerCorrect(isCorrect)
+      setTimeout(() => onCheckAnswer(isCorrect), 800)
     }
   }
 
